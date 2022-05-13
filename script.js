@@ -18,11 +18,12 @@ function Jatek(){
         //tippek száma növelése
         sz++;
 
+        //következő tipp
         tipp = prompt("Adj meg egy számot:");
     }
 
     let eredmeny = document.getElementById('eredmeny');
-    eredmeny.innerHTML = "Eltaláltad! Ppróbálkozásaidnak száma:" + sz
+    eredmeny.innerHTML = "Eltaláltad! A szám: " + szám + "! Próbálkozásaid száma:" + sz
 }
 
 
